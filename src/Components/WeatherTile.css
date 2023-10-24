@@ -1,0 +1,22 @@
+.weather-tile {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition between theme changes */
+}
+
+.weather-tile.white {
+    background-color: white;
+    color: black;
+}
+
+.weather-tile.dark {
+    background-color: black;
+    color: white;
+}
+
+.weather-day, .weather-temp {
+    display: block;
+    text-align: center;
+}

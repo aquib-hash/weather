@@ -1,0 +1,28 @@
+/* Navbar.css */
+
+.app-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff; /* default light background */
+    color: #333; /* default text color */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.search-input {
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 5px 15px;
+}
+
+/* Dark mode styles */
+.dark-mode .app-navbar {
+    background-color: #333; /* dark background for navbar */
+    color: #fff; /* white text color */
+}
+
+
